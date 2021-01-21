@@ -26,7 +26,7 @@ public class Client implements Serializable {
 
 	private String cpf;
 
-	private Double icome;
+	private Double income;
 
 	private Instant birthDate;
 
@@ -42,12 +42,12 @@ public class Client implements Serializable {
 
 	}
 
-	public Client(Long id, String name, String cpf, Double icome, Instant birthDate, Integer children) {
+	public Client(Long id, String name, String cpf, Double income, Instant birthDate, Integer children) {
 		super();
 		this.id = id;
 		this.name = name;
 		this.cpf = cpf;
-		this.icome = icome;
+		this.income = income;
 		this.birthDate = birthDate;
 		this.children = children;
 	}
@@ -76,12 +76,12 @@ public class Client implements Serializable {
 		this.cpf = cpf;
 	}
 
-	public Double getIcome() {
-		return icome;
+	public Double getIncome() {
+		return income;
 	}
 
-	public void setIcome(Double icome) {
-		this.icome = icome;
+	public void setIncome(Double income) {
+		this.income = income;
 	}
 
 	public Instant getBirthDate() {
